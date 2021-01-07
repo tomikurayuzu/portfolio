@@ -1,0 +1,80 @@
+@charset"utf-8";
+
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+
+.pickup{
+    color: green;
+    font-size: 24px;
+}
+
+/* サイトID
+---------------------------------------*/
+.site-id{
+    position:relative;
+    float: left;
+}
+    .site-id h1{
+       display: inline-block;
+       margin:10px 0 10px 20px;
+    }
+
+/*ブローバルナビゲーション
+---------------------------------------*/
+.global-nav{
+    float:right;
+    margin: 0;
+    list-style: none;
+}
+.cd-main-header{
+    height:70px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+/*メインビジュアル
+----------------------------------------*/
+.main-visual{
+    position: relative;
+    height: 480px;
+    margin-bottom: 50px;
+    background: center no-repeat;
+    background-image: url("../images/xxxxxxx");
+    background-size: cover;
+    
+}
+
+
+/*共通                                            
+----------------------------------------*/
+body{
+    color: #323232;
+    font-family: "Helvetica","ヒラギノ角ゴシック",YuGothic,"Yu Gothic","Hiragino Sans","メイリオ",meiryo,verdana,sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.main-title{
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.sub-title{
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+hr{
+    margin: 80px 0;
+}
